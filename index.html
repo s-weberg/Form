@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your pet</title>
+</head>
+<body>
+    <main>
+        
+        <div class="container">
+
+            <div>
+                <img class="img" src="Images/doris--2016.jpg" alt="Doris vilar på gräsmattan">
+            </div>
+            <form class="form" autocomplete="off">
+                <h1 class="main-title">Choose your pet!</h1>
+                <h3 class="main-info">Select the pet you wish to subscribe to. 
+                    Your newsletter will conain more information about these pets.</h3>
+                <p class="info">Feel free to leave suggestions, about what you want to read more 
+                    about, in the newsletter in the message box below.</p>
+                    
+                <div class="radio">
+                    <input type="radio" name="pet" id="dogs" value="Dogs">
+                    <label for="dogs">Dogs</label><br>
+                    <input type="radio" name="pet" id="cats" value="Cats">
+                    <label for="cats">Cats</label><br>
+                    <input type="radio" name="pet" id="horses" value="Horses">
+                    <label for="horses">Horses</label><br>
+                    <input type="radio" name="pet" id="rabbits" value="Rabbits">
+                    <label for="rabbits">Rabbits</label><br>
+                    <input type="radio" name="pet" id="hamsters" value="Hamsters">
+                    <label for="hamsters">Hamsters</label><br>
+                    <input type="radio" name="pet" id="guineapig" value="Guineapig">
+                    <label for="guineapig">Guinea pigs</label>
+                </div>
+
+
+                <div class="info-box">
+                    <label for="name" class="label">Full name</label>
+                    <input type="text" name="name" id="name" class="input-field"  placeholder="Enter your full name">
+                    <label for="email" class="label">Email</label>
+                    <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required >
+                    
+                    <label class="label-large">
+                        <div class="label__text">Your message</div>
+                        <textarea name="message" cols="30" rows="4" class="textarea" placeholder="Enter your suggestions"></textarea>
+                    </label>
+                </div>
+
+                <div>
+                    <button type="submit" class="button" >Submit</button>
+                </div>
+        
+            </form>
+        </div>
+</main>
+
+</body>
+</html>
